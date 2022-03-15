@@ -39,7 +39,7 @@ namespace _2_Inventory_Management
         {
             Console.WriteLine("enter 1 for adding Rice , 2 for adding pulses, 3 for adding wheats");
             int select = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter Rice Brand Name");
+            Console.WriteLine("Enter Brand Name");
             string name = (Console.ReadLine());
             Console.WriteLine("Enter Weight ");
             int weight = Convert.ToInt32(Console.ReadLine());
